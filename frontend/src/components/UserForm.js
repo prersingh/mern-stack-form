@@ -59,6 +59,7 @@ const UserForm = () => {
           setError('');
           console.log('Form submitted successfully');
           alert('Form submitted successfully !!!')
+          navigate('/form-list')
         })
         .catch((error) => {
           console.error('Error sending email:', error);
